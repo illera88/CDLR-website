@@ -77,66 +77,9 @@ copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Ri
 languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
-[[Languages.fr.menu.footer]]
-URL = "about"
-name = "About"
-weight = 1
-[[Languages.fr.menu.footer]]
-URL = "project"
-name = "Project"
-weight = 2
-[[Languages.fr.menu.footer]]
-URL = "service"
-name = "Service"
-weight = 3
-[[Languages.fr.menu.footer]]
-URL = "pricing"
-name = "Pricing"
-weight = 4
-[[Languages.fr.menu.footer]]
-URL = "faq"
-name = "FAQ"
-weight = 5
-[[Languages.fr.menu.footer]]
-URL = "contact"
-name = "Contact"
-weight = 6
-[[Languages.fr.menu.main]]
-URL = "/"
-name = "Accueil"
-weight = 1
-[[Languages.fr.menu.main]]
-URL = "about"
-name = "À propos"
-weight = 2
-[[Languages.fr.menu.main]]
-URL = "project"
-name = "Projet"
-weight = 3
-[[Languages.fr.menu.main]]
-URL = "service"
-name = "Un service"
-weight = 4
-[[Languages.fr.menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 5
-[[Languages.fr.menu.main]]
-hasChildren = true
-name = "Pages"
-weight = 6
-[[Languages.fr.menu.main]]
-URL = "faq"
-name = "FAQ"
-parent = "Pages"
-[[Languages.fr.menu.main]]
-URL = "pricing"
-name = "Tarification"
-parent = "Pages"
-[[Languages.fr.menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 7
+[Languages.fr.menu]
+footer = []
+main = []
 [markup.goldmark.renderer]
 unsafe = true
 [outputs]
